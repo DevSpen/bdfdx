@@ -1,6 +1,6 @@
 {
   "name": "bdfdx",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Bot Designer for Discord plugins for additional functionality in BDFD, using HTTP requests!",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
