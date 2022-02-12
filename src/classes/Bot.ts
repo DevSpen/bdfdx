@@ -1,4 +1,3 @@
-
 import express from "express";
 const app = express();
 import { Client, Intents } from "discord.js";
