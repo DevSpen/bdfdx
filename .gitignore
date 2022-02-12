@@ -1,0 +1,17 @@
+config.ts
+node_modules/
+*.tsbuildinfo
+.tsconfig.tsbuildinfo
+.vscode/
+dist/
+.env
+.config/
+typedoc.json
+.cache/
+.cache
+cache/
+~/cache/
+home/spen/
+home/spen
+home/
+/home/spen/

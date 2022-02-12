@@ -1,0 +1,25 @@
+{
+  "name": "bdfdx",
+  "version": "1.1.1",
+  "description": "Bot Designer for Discord plugins!",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc --build && gen-esm-wrapper dist/index.js dist/index.mjs",
+    "doc": "npx typedoc src/index.ts --options typedoc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "express": "^4.17.2",
+    "ping-monitor": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "gen-esm-wrapper": "^1.1.3"
+  }
+}
